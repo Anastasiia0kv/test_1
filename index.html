@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <center><h2>Факти про космос</h2></center>
+        <p>Майже чверть видимої речовини у Всесвіті посідає гелій. Звідки він береться?</p>
+        <p><input type="radio" name="year" id="y1">Внаслідок радіоактивного розпаду важких елементів</p>
+        <p><input type="radio" name="year" id="y2">Утворився відразу після Великого вибуху під час первинного нуклеосинтезу</p>
+        <p><input type="radio" name="year" id="y3">Із зірок: це продукт термоядерних реакцій</p>
+        <p><input type="radio" name="year" id="y4">З усіх цих джерел</p>
+
+        <button id = "btn">Відповісти</button>
+        <p class="right hidden" id="right"> <b>Правильна відповідь.</b> Альфа-частинки - ядра гелію - з'являються у всіх цих процесах.</p>
+        <div class="wrong_div hidden" id="wrong_div">
+            <p class="wrong" id="wrong"><b>Неправильна відповідь</b></p>
+            <button id = "btn1">Подивитись відповідь</button>
+        </div>
+
+        <p id="answer" class = "hidden"><b>Правильна відповідь:</b> З усіх цих джерел</p>
+    </div>
+    <script src="script.js"></script>
+</html>
